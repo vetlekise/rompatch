@@ -34,3 +34,9 @@ go.work.sum
 bin
 # Added by goreleaser init:
 dist/
+
+# ROM files
+*.gba
+
+# Patch files
+*.ips
