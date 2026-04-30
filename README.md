@@ -3,8 +3,8 @@
 A Go command-line utility for patching video game ROMs.
 
 ## Features
-> [!NOTE]
-> WORK IN PROGRESS
+- Patching formats:
+    - IPS
 
 ## Installation
 
@@ -21,3 +21,7 @@ Download the latest release for your platform from the [GitHub Releases](https:/
 ## Usage
 
 <!-- Describe how to use the tool/library here. -->
+
+```bash
+rompatch --base game.gba --patch hack.ips --out modified.gba
+```
